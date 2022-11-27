@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import reviews from "../data";
 
 //icons
-import { GrNext } from "react-icons/gr";
-import { GrPrevious } from "react-icons/gr";
+import { MdOutlineArrowForwardIos } from "react-icons/md";
+import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import { FaQuoteRight } from "react-icons/fa";
 
 //styles
@@ -31,16 +31,15 @@ const Review = () => {
           <FaQuoteRight className={styles.quote} />
           <p>{text}</p>
           <div className={`${styles.next} ${styles.sliderBtn}`}>
-            <GrNext
+            <MdOutlineArrowForwardIos
               className={styles.sliderIcon}
-              color="white"
+              style={{ color: "white" }}
               onClick={handleNext}
             />
           </div>
           <div className={`${styles.prev} ${styles.sliderBtn}`}>
-            <GrPrevious
+            <MdOutlineArrowBackIosNew
               className={styles.sliderIcon}
-              color="white"
               onClick={handlePrevious}
             />
           </div>
