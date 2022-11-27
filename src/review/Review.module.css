@@ -1,0 +1,74 @@
+.container {
+  height: 100vh;
+}
+
+.mainTitle {
+  color: #fff;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+.reviewSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  /* position: relative; */
+}
+.reviewText {
+  background-color: #fff;
+  color: #1a336b;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  width: 800px;
+  padding: 70px 70px 120px 70px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.reviewerImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  z-index: 2;
+  background-color: #091e4b;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -100px;
+  transform: translate(-50%);
+}
+.reviewer {
+  /* padding-top: 100px; */
+  color: #fff;
+}
+.next {
+  right: -40px;
+  top: 50%;
+}
+.prev {
+  left: -40px;
+  top: 50%;
+  bottom: 50%;
+}
+.sliderBtn {
+  height: 80px;
+  width: 80px;
+  background-color: #394f7e;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  transform: translate(0, -50%);
+}
+.sliderIcon {
+  padding-top: 25px;
+  color: #fff;
+}
+.reviewer {
+  font-weight: normal;
+  letter-spacing: 0.4px;
+}
+.quote {
+  height: 50px;
+  width: 50px;
+  color: #6980b3;
+}
